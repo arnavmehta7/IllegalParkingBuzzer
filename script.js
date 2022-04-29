@@ -1,4 +1,4 @@
-console.log('attached');
+console.log('ALL SET LETZ GO!');
 
 // the link of model file
 const URL = "https://teachablemachine.withgoogle.com/models/K4JuZnTWX/";
@@ -67,8 +67,9 @@ async function predict() {
       prediction[i].className + ": " + (prediction[i].probability.toFixed(2))*100+'%';
     labelContainer.childNodes[i].innerHTML = classPrediction;
     // don't play audio when head's neutral with probability >= 75%
-    console.log(prediction[0].probability.toFixed(2));
-    if (prediction[0].probability.toFixed(2) >= 0.90 || prediction[0].probability.toFixed(2) >= 0.90)
+    // console.log(prediction)
+    // console.log(prediction[0].probability.toFixed(2));
+    if (prediction[0].probability.toFixed(2) >= 0.90 || prediction[1].probability.toFixed(2) >= 0.90)
       playAud();
 
     else

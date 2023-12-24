@@ -1,5 +1,4 @@
 # illegal-parking-buzzer 🔔 🚗 📛
-# Made by ARNAV MEHTA,Ludhiana,Punjab
 [Link to Website](https://illegalparking.netlify.app/)
 ### BEST FEATURES:-
 It knows if there is an human in the frame, or some wall without anyone, just simple road, some furniture and terms it as NORMAL, to prevent any wrong prediction
